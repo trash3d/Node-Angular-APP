@@ -1,0 +1,16 @@
+<div *ngIf="error">
+                <strong>Ops!</strong> {{ error }}
+</div>
+<div *ngFor="let registro of registros">	
+						<hr>
+						<div class="row">
+							<div style="margin-left:15px;">{{registro.fecha}}</div>
+							<div class="offset-10"><button (click)=borrar(registro._id) style="align:right;" class="btn btn-danger btn-sm">Borrar</button></div>
+						</div>
+						<h2 style="color:purple;"><strong>{{registro.nombre}} </strong>({{registro.opcion}})</h2>
+						<p>{{registro.mensaje}}</p>
+						</div>
+        
+   
+
+

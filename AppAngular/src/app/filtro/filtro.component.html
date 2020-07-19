@@ -1,0 +1,8 @@
+<form>
+    <div class="form-group text">
+    <label for="fecha">Fecha</label>
+    <input type="date" class="form-control mt-0" [(ngModel)]="fecha" name="fecha">
+    </div>
+    <button type="submit" (click)="buscar()" class="btn btn-primary mt-0 mb-4 text">Enviar</button>
+    <button style="margin-left:20px;" type="submit" (click)="recargar()" class="btn btn-primary mt-0 mb-4 text">Recargar Lista</button>
+</form>

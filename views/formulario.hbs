@@ -1,0 +1,17 @@
+<p> {{ tipoFormulario }} </p>
+{{#if  error }}
+    <div>
+        <img class="logo-cancel" src="img/cancel.png">
+    </div>
+  {{#each error}}
+    <div class="errorEnvio">{{this}}</div>
+   {{/each}}
+{{/if }}
+    <form method="POST" action="/contacto">
+        <input type="text" class="form-control mt-5" placeholder="Nombre:" name="nombre">
+        <input type="text" class="form-control mt-3" placeholder="Apellido:" name="apellido">
+        <input type="email" class="form-control mt-3" placeholder="Email:" name="mail">
+        <textarea type="text" class="form-control mt-3" rows="5" placeholder="Escribite algo acá:" name="mensaje"></textarea>
+        <button class="btn btn-primary mt-3" type="submit">ENVIALO!</button>
+    </form>
+                

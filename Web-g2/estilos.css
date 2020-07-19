@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----- FIN DEL RESET CSS ----- */
+
+#menuArriba {
+   background-color: rgb(103, 45, 197);
+}
+#logo-two {
+   max-width: 150px;
+}
+h1 {
+   font-family: 'Oswald', sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+}
+.boton-chico {
+   min-width: 20px;
+}
+.botones-01 {
+   margin-left: -10px;
+}
+.botones {
+   margin-left: 2px;
+}
+
+/* Definición de tamaños de textos */
+
+.texto-grande {
+   font-family: 'Oswald', sans-serif;
+   font-size: 5vw;
+   font-weight: 200;
+   line-height: 1em;
+}
+.texto-mediano {
+   font-family: 'Oswald', sans-serif;
+   font-size: 3vw;
+   font-weight: 200;
+   line-height: 1em;
+}
+.texto-chico {
+   font-family: 'Oswald', sans-serif;
+   font-size: 20px;
+   font-weight: 200;
+   line-height: 1.35em;
+}
+.texto-pie {
+   font-family: 'Oswald', sans-serif;
+   font-size: 15px;
+   font-weight: 200;
+}
+
+/* Imagen de fondo y cajas contenedoras */
+
+#cuerpo {
+   background-image: url(img/img_fondo.jpg);
+   background-size: 100%;
+   object-fit: cover;
+   height: 700px;
+}
+
+.caja-titulo {
+   color: rgb(65, 170, 255);
+   background: rgb(103, 45, 197);
+   min-height: 2vh;
+   margin-top: 50px;
+   border-radius: 10px 10px 0 0;
+   -webkit-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   -moz-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+}
+.caja {
+   background: rgba(255, 255, 255, 0.9);
+   min-height: 320px;
+   margin-top: 50px;
+   -webkit-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   -moz-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   border-radius: 0 0 10px 10px;
+}
+.caja-pie00 {
+   color: white;
+   background: white;
+   height: 75px;
+   margin-top: 0;
+}
+.caja-pie {
+   color: rgb(65, 170, 255);
+   background: rgb(103, 45, 197);
+   min-height: 25px;
+   margin-top: 0;
+}
+hr.linea {
+   margin-top: 0;
+	border-top: 1px solid rgb(185, 185, 185);
+}
+.utn-logo {
+   width: 65px;
+}
+/* Estilos exclusivos de página de Contacto y Login */
+
+#form-fondo {
+   background-image: url(img/img_fondo.jpg);  
+   background-size: 100%;
+   object-fit: cover;
+   height: 700px;
+}
+.caja-titulo-contacto-login {
+   color: #672dc5;
+   background: rgb(65, 170, 255);
+   min-height: 1vh;
+   margin-top: 50px;
+   border-radius: 10px 10px 0 0;
+   -webkit-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   -moz-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+}
+.caja-contacto-login {
+   background: #F8F5F2;
+   max-height: 565px;
+   -webkit-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   -moz-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   border-radius: 0 0 10px 10px;
+}
+
+/* Estilos para Formulario y mensajeEnviado */
+
+.logo-cancel {
+   width: 50px;
+   padding-bottom: 10px;
+   
+}
+.logo-checked {
+   padding-top: 10px;
+   width: 50px;
+   padding-bottom: 10px;
+   
+}
+.errorEnvio {
+   padding-left: 5px;
+   font-family: 'Oswald', sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 1.25em;
+   color: red;
+}
+.checkEnvio {
+   padding-left: 5px;
+   font-family: 'Oswald', sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.25em;
+   color: rgb(49, 186, 124);
+}

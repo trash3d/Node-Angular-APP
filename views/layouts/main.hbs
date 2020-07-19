@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diario del grupo 2! - CONTACTO</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Tipografía OSWALD - Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+      <!-- INICIO diseño de botonera -->
+    <div class="container-fluid">
+            <div class="row" id=menuArriba>
+                <div class="offset-2 col-1 align-items">
+                    <a href="index.html"><img id=logo-two src="img/logo-G2.png"> </a>
+                </div>
+                <div class="offset-4 col-1 d-flex align-items-center">
+                    <a class="btn btn-outline-light botones-01" href="/contacto" role="button">CONTACTOS</a>
+                    <a class="btn btn-outline-primary botones" href="http://localhost:4200/" role="button">LOGIN</a>
+                </div>
+            </div>
+    <div class="row" id="form-fondo">
+        <div class="col-12 px-5">
+            <div class="row">
+                <div class="col-8 col-md-4 offset-2 offset-md-4 caja-titulo-contacto-login">
+                    <p class="text-center texto-mediano mt-3">CONTACTO</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 col-md-4 offset-2 offset-md-4 pt-0 px-3 pb-5 caja-contacto-login">
+                  
+                  {{{ body }}}
+
+                </div>
+            </div>
+        </div>               
+    </div>    
+    <!-- INICIO diseño de pie -->
+    <div class="row" id="pie1">
+            <div class="col-12 px-0">
+                <div class="px-0 caja-pie00">
+                        <hr class="linea">
+                    <div class="col-1 offset-1 utn-logo">
+                        <img id=logo-two src="img/UTN_LOGO.jpg">
+                    </div>
+                </div>
+                <div class="px-0 caja-pie">
+                        <p class="text-center texto-pie mt-0">Trabajo práctico para el curso de Programador Web Inicial en la UTN - 2019</p>
+                </div>
+            </div>
+    </div>
+    </div>
+   <!-- son 3 llaves para que no convierta a string el html que va a venir en el tab body -->
+  
+</body>
+</html>

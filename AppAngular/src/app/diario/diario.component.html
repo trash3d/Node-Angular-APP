@@ -1,0 +1,14 @@
+
+<div class="caja-titulo-contacto-login"><p class="texto-grande">DESCARGOS DIARIOS</p>
+<p id="parrafo">Este es nuestro espacio donde cada uno de nosotros puede comentar que le pasá o ocurre día a día.</p></div>
+<div style="margin-top:-15px;" class="pt-1 px-3 pb-5 caja">
+
+<div *ngIf="error">
+			
+                	<strong>Ops!</strong> {{ error }}
+			
+                	</div>
+
+<app-agregar (onAgregue)="cargarDiario()"></app-agregar>
+<app-listado [registros]="registros" (onBuscar)="filtrar($event)" (onRecargue)="cargarDiario()"></app-listado>
+</div>

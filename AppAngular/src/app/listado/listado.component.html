@@ -1,0 +1,5 @@
+<div class="listado-general">
+    <h2>Buscá los descargos por día:</h2>
+<app-filtro (onRecargue)="recargar()" (onBuscar)="filtrar($event)"></app-filtro>
+<app-item (onBorre)="recargar()" [registros]="registros"></app-item>
+</div>
